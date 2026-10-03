@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+id = "avif_animation"
+version = "1.0.1"
+name = "AVIF Animation"
+tagline = "Render animations straight to animated AVIF"
+maintainer = "AVIF Animation contributors"
+type = "add-on"
+tags = ["Render", "Import-Export"]
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+platforms = ["windows-x64"]
+
+[permissions]
+files = "Render temporary PNG frames and write AVIF exports and logs"
+
+[build]
+paths_exclude_pattern = [".git/", ".gitignore", "dist/", "__pycache__/", "*.pyc"]
