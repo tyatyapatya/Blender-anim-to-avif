@@ -6,7 +6,9 @@ Windows x64, Blender 4.2+. Tested with Blender 4.5 and 5.0.
 
 ## Install
 
-Download the [add-on ZIP](dist/avif_animation-1.0.1-windows-x64.zip). In Blender, go to **Edit → Preferences → Add-ons → Install from Disk**, select the ZIP and enable it.
+Download the Windows ZIP from the [latest release](https://github.com/tyatyapatya/Blender-anim-to-avif/releases/latest). Choose the ZIP under Assets, not the source code archive.
+
+In Blender, go to **Edit → Preferences → Add-ons → Install from Disk** and select the ZIP.
 
 ## Use
 
